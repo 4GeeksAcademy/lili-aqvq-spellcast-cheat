@@ -1,42 +1,42 @@
-# Hello World with React boilerplate
+# SpellCast Discord Game Cheat 🪄
 
-Start coding a react application
+SpellCast is a turn-based word game where players search for words on a 5x5 grid using a set of randomly generated letters.
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
+![image](https://github.com/liliaqvq/lili-aqvq-spellcast-cheat/assets/130264861/cd0673c5-8df8-4efc-8162-50256ca909ca)
 
-## How to start coding?
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
+## How to Use the Cheat
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+1. **Fill the Tiles:**
+   - Fill the tiles with the same random letters from your current game. Ensure that the letters match the layout of the 5x5 grid.
 
-## Local Installation (skip if you are working on codespaces or gitpod)
+2. **Find Words:**
+   - After filling the tiles, click the "Find Words" button.
 
-Download the boilerplate using git
+3. **View Results:**
+   - The cheat will display a list of all the possible words that can be formed with the given letters.
+
+4. **Word Order:**
+   - The words will be listed in descending order, starting from the longest word to the shortest one.
+  
+5. **Clear All:**
+   - You can press the button "Clear All" to clear all tiles and start again.
+
+## Example Usage
+
+Imagine you have the following letters on the SpellCast game board:
 
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
+A B C D E
+F G H I J
+K L M N O
+P Q R S T
+U V W X Y
 ```
 
-## Publish your website!
+Fill the tiles on the cheat with these letters, click "Find Words," and the cheat will present a list of valid words based on the provided letter combination.
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+Enjoy enhancing your SpellCast gaming experience with the cheat!
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
 
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
-
-### Contributors
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+Feel free to customize this README to provide any additional information or instructions that you think might be helpful for users.
